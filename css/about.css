@@ -1,0 +1,17 @@
+.layout_padding .about_section .img-box {
+  width: 70%;
+  border-radius: 0%;
+  -webkit-transform: none;
+  transform: none;
+  margin-top: 50px;
+}
+
+.layout_padding .about_section .img-box .about-img {
+  -webkit-transform: none;
+  transform: none;
+}
+
+.layout_padding {
+  margin-top: 110px;
+  padding-top: 0 !important;
+}
