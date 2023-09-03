@@ -46,6 +46,13 @@ $("#carouselExampleIndicators").on("slid.bs.carousel", function (event) {
 
  function sendMail() {
 
+//emailjs.send("service_bhrfhfq","template_msldpv8",{
+//name: "aaaa",
+//phone: "111",
+//email: "aaaaa",
+//message: "aa",
+//});
+   
 //   var templateParams = {
 //     name: 'James',
 //     notes: 'Check this out!'
@@ -66,7 +73,7 @@ $("#carouselExampleIndicators").on("slid.bs.carousel", function (event) {
    };
 
    emailjs
-     .send("service_halsvxa", "template_msldpv8", params)
+     .send("service_bhrfhfq", "template_msldpv8", params)
      .then(function (res) {
        alert("Sucess! " + res.status);
      });
