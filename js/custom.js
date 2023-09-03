@@ -58,16 +58,16 @@ $("#carouselExampleIndicators").on("slid.bs.carousel", function (event) {
 //        console.log('FAILED...', error);
 //     });
 
-//   var params = {
-//     name: document.getElementById("name").value,
-//     email: document.getElementById("email").value,
-//     phone: document.getElementById("phone").value,
-//     message: document.getElementById("message").value,
-//   };
+   var params = {
+     name: document.getElementById("name").value,
+     email: document.getElementById("email").value,
+     phone: document.getElementById("phone").value,
+     message: document.getElementById("message").value,
+   };
 
-//   emailjs
-//     .send("service_1izy9nq", "template_6j3h1f2", params)
-//     .then(function (res) {
-//       alert("Sucess! " + res.status);
-//     });
-// }
+   emailjs
+     .send("service_halsvxa", "template_msldpv8", params)
+     .then(function (res) {
+       alert("Sucess! " + res.status);
+     });
+ }
