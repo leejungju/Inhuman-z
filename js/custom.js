@@ -44,7 +44,7 @@ $("#carouselExampleIndicators").on("slid.bs.carousel", function (event) {
 //      console.log('FAILED...', error);
 //   });
 
-// function sendMail() {
+ function sendMail() {
 
 //   var templateParams = {
 //     name: 'James',
