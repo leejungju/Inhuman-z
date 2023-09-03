@@ -46,12 +46,12 @@ $("#carouselExampleIndicators").on("slid.bs.carousel", function (event) {
 
  function sendMail() {
 
-//emailjs.send("service_bhrfhfq","template_msldpv8",{
-//name: "aaaa",
-//phone: "111",
-//email: "aaaaa",
-//message: "aa",
-//});
+emailjs.send("service_bhrfhfq","template_msldpv8",{
+name: "bb",
+phone: "2",
+email: "s",
+message: "bb",
+});
    
 //   var templateParams = {
 //     name: 'James',
@@ -72,9 +72,9 @@ $("#carouselExampleIndicators").on("slid.bs.carousel", function (event) {
      message: document.getElementById("message").value,
    };
 
-   emailjs
-     .send("service_bhrfhfq", "template_msldpv8", params)
-     .then(function (res) {
-       alert("Sucess! " + res.status);
-     });
- }
+  // emailjs
+    // .send("service_bhrfhfq", "template_msldpv8", params)
+     //.then(function (res) {
+      // alert("Sucess! " + res.status);
+     //});
+ //}
